@@ -31,13 +31,13 @@
 <body>
 
   <!-- header -->
-  <header class="container-fluid">
+  <header class="container-fluid py-1">
 
     <!--container-->
     <section class="container">
 
       <!--article-->
-      <article class="row">
+      <article class="row align-items-center">
 
         <!--logo-->
         <figure class="col-md-2">
@@ -46,8 +46,9 @@
         <!--end logo-->
 
         <!--form search-->
-        <form class="col-md-7">
-          <input type="text" name="search" placeholder="Procurar Roupas aqui" />
+        <form
+          class="col-md-6 d-flex align-items-center justify-content-between border rounded-pill bg-light py-1 ps-3 pe-2 mx-4">
+          <input type=" text" name="search" placeholder="Procurar Roupas aqui" />
           <button>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
               viewBox="0 0 16 16">
@@ -59,7 +60,7 @@
         <!--end form search-->
 
         <!--nav-->
-        <ul class="nav col-md-3">
+        <ul class="nav col-md-3 justify-content-around">
 
           <li class="nav-item">
             <a href="#">
@@ -71,8 +72,8 @@
             </a>
           </li>
 
-          <li class="nav-item">
-            <div>3</div>
+          <li class="nav-item position-relative">
+            <div class="rounded-circle d-inline-flex align-items-center justify-content-center text-white">3</div>
             <a href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill"
                 viewBox="0 0 16 16">

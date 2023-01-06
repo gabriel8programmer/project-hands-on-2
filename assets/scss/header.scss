@@ -1,0 +1,50 @@
+header {
+  background: $color-primary;
+
+  section {
+
+    article {
+
+      form {
+
+        font-size: 11pt;
+
+        input {
+          outline: none;
+        }
+
+        input,
+        button {
+          border: none;
+        }
+      }
+
+      ul.nav {
+
+
+        li.nav-item {
+
+          div {
+            width: 15px;
+            height: 15px;
+            background-color: #FF0F9A;
+            font-size: 70%;
+            font-weight: bold;
+            position: absolute;
+            top: -8px;
+          }
+
+          a {
+            color: $color-secondary;
+            text-decoration: none;
+            font-weight: 900;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}

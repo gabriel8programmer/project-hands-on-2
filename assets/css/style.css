@@ -6,6 +6,15 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+/*reset css*/
+* {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  list-style: none;
+}
+
+/*end reset css*/
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10503,5 +10512,35 @@ fieldset:disabled .btn {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+header {
+  background: #ffc107;
+}
+header section article form {
+  font-size: 11pt;
+}
+header section article form input {
+  outline: none;
+}
+header section article form input,
+header section article form button {
+  border: none;
+}
+header section article ul.nav li.nav-item div {
+  width: 15px;
+  height: 15px;
+  background-color: #FF0F9A;
+  font-size: 70%;
+  font-weight: bold;
+  position: absolute;
+  top: -8px;
+}
+header section article ul.nav li.nav-item a {
+  color: #343A40;
+  text-decoration: none;
+  font-weight: 900;
+}
+header section article ul.nav li.nav-item a:hover {
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=style.css.map */
