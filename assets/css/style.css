@@ -10543,4 +10543,13 @@ header section article ul.nav li.nav-item a:hover {
   text-decoration: underline;
 }
 
+.menu-buttons {
+  background: #343A40;
+  color: #fff;
+  font-size: 12pt;
+}
+.menu-buttons svg {
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
