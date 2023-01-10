@@ -29,15 +29,14 @@
 </head>
 
 <body>
-
   <!-- header -->
-  <header class="container-fluid py-1">
+  <header class="container-fluid">
 
     <!--container-->
     <section class="container">
 
       <!--article-->
-      <article class="row align-items-center">
+      <article class="row d-flex align-items-center">
 
         <!--logo-->
         <a href="/" class="col-md-2">
@@ -46,10 +45,9 @@
         <!--end logo-->
 
         <!--form search-->
-        <form
-          class="col-md-6 d-flex align-items-center justify-content-between border rounded-pill bg-light py-1 ps-3 pe-2 mx-4">
-          <input type=" text" name="search" placeholder="Procurar Roupas aqui" />
-          <button>
+        <form class="col-md-7 d-flex align-items-center">
+          <input type="text" name="search" placeholder="Procurar Roupas aqui" />
+          <button class="d-flex align-items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
               viewBox="0 0 16 16">
               <path
@@ -60,7 +58,7 @@
         <!--end form search-->
 
         <!--nav-->
-        <ul class="nav col-md-3 justify-content-around align-items-center">
+        <ul class="nav col-md-3 d-flex justify-content-around">
 
           <li class="nav-item">
             <a href="#">
@@ -73,7 +71,7 @@
           </li>
 
           <li class="nav-item position-relative">
-            <div class="rounded-circle d-inline-flex align-items-center justify-content-center text-white">3</div>
+            <div class="notification d-inline-flex align-items-center justify-content-center">3</div>
             <a href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill"
                 viewBox="0 0 16 16">
@@ -97,12 +95,12 @@
   <!-- end header -->
 
   <!--nav menu buttons -->
-  <nav class="container-fluid menu-buttons">
+  <nav class="nav-product container-fluid">
     <!--navbar-->
     <section class="container">
 
       <!--ul buttons width text-->
-      <ul class="row nav py-1">
+      <ul class="row nav">
 
         <!--list items -->
         <li class="col-md-2 nav-item">
@@ -391,7 +389,6 @@
       </div>
     </section>
     <!--end section produts-->
-    article
   </main>
   <!--content main of page-->
 

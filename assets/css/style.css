@@ -1,20 +1,68 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
+* {
+  color: #343A40;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+header {
+  padding: 25px;
+  background: #ffc107;
+}
+header form {
+  position: relative;
+}
+header form input,
+header form button {
+  border: none;
+}
+header form input[type=text] {
+  width: 100%;
+  border-radius: 100px;
+  padding: 10px 20px;
+}
+header form button {
+  background: none;
+  position: absolute;
+  right: 20px;
+}
+header ul li {
+  position: relative;
+}
+header ul li a {
+  color: #343A40;
+  font-weight: bold;
+  font-size: 16px;
+}
+header ul li a svg {
+  width: 20px;
+  height: 20px;
+}
+header ul li a:hover {
+  color: initial;
+}
+header ul li div.notification {
+  width: 15px;
+  height: 15px;
+  background-color: #ff0f9a;
+  color: #fff;
+  font-weight: bold;
+  font-size: 10px;
+  border-radius: 100%;
+  position: absolute;
+  left: 3px;
+  top: -10px;
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-/*reset css*/
-* {
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  list-style: none;
-}
-
-/*end reset css*/
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10512,44 +10560,5 @@ fieldset:disabled .btn {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
-header {
-  background: #ffc107;
-}
-header section article form {
-  font-size: 11pt;
-}
-header section article form input {
-  outline: none;
-}
-header section article form input,
-header section article form button {
-  border: none;
-}
-header section article ul.nav li.nav-item div {
-  width: 15px;
-  height: 15px;
-  background-color: #FF0F9A;
-  font-size: 70%;
-  font-weight: bold;
-  position: absolute;
-  top: -8px;
-}
-header section article ul.nav li.nav-item a {
-  color: #343A40;
-  text-decoration: none;
-  font-weight: 900;
-}
-header section article ul.nav li.nav-item a:hover {
-  text-decoration: underline;
-}
-
-.menu-buttons {
-  background: #343A40;
-  color: #fff;
-  font-size: 12pt;
-}
-.menu-buttons svg {
-  font-size: 20px;
-}
 
 /*# sourceMappingURL=style.css.map */
