@@ -1,0 +1,56 @@
+//nav of products
+
+nav.nav-product {
+  background-color: $color-secondary;
+  color: $color-white;
+
+  ul.nav {
+
+    li {
+
+      padding: 10px;
+      position: relative;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+
+      &:hover {
+
+        cursor: pointer;
+
+        ul {
+          display: inline-block;
+        }
+      }
+
+      ul {
+        width: 100%;
+        position: absolute;
+        top: 44px;
+        left: 10px;
+        z-index: 2;
+        background-color: $color-secondary;
+        border-top: 10px solid $color-primary;
+
+        display: none;
+
+        li {
+
+          padding: 10px 20px;
+
+          &:hover {
+            background: darken($color: $color-secondary, $amount: 80%);
+          }
+
+          a {
+            color: $color-white;
+          }
+        }
+      }
+    }
+  }
+}
+
+//end nav of products

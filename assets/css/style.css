@@ -1,13 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
-* {
-  color: #343A40;
-}
-
-a {
-  text-decoration: none !important;
-}
-
 header {
   padding: 25px;
   background: #ffc107;
@@ -55,6 +47,44 @@ header ul li div.notification {
   position: absolute;
   left: 3px;
   top: -10px;
+}
+
+nav.nav-product {
+  background-color: #343A40;
+  color: #fff;
+}
+nav.nav-product ul.nav li {
+  padding: 10px;
+  position: relative;
+}
+nav.nav-product ul.nav li svg {
+  width: 20px;
+  height: 20px;
+}
+nav.nav-product ul.nav li:hover {
+  cursor: pointer;
+}
+nav.nav-product ul.nav li:hover ul {
+  display: inline-block;
+}
+nav.nav-product ul.nav li ul {
+  width: 100%;
+  position: absolute;
+  top: 44px;
+  left: 10px;
+  z-index: 2;
+  background-color: #343A40;
+  border-top: 10px solid #ffc107;
+  display: none;
+}
+nav.nav-product ul.nav li ul li {
+  padding: 10px 20px;
+}
+nav.nav-product ul.nav li ul li:hover {
+  background: #292d32;
+}
+nav.nav-product ul.nav li ul li a {
+  color: #fff;
 }
 
 /*!
@@ -10560,5 +10590,12 @@ fieldset:disabled .btn {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+body {
+  color: #343A40;
+}
+
+a {
+  text-decoration: none !important;
+}
 
 /*# sourceMappingURL=style.css.map */
