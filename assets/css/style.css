@@ -169,6 +169,12 @@ footer h4 {
   font-size: 19px;
   color: #ffc107;
 }
+footer ul li.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 footer ul li a {
   color: #fff;
 }
@@ -177,6 +183,25 @@ footer ul li a:hover {
   font-weight: bold;
 }
 
+@media (max-width: 767px) {
+  header form {
+    padding: 20px 0;
+  }
+  .Banner-rotate {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .product img {
+    width: 100%;
+  }
+}
+@media (max-width: 323px) {
+  .banner-fixed .banner-fixed-12x p,
+  .banner-fixed .banner-fixed-all-br p {
+    font-size: 14px;
+  }
+}
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10690,6 +10715,13 @@ body {
 
 a {
   text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 10px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

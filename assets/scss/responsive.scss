@@ -1,0 +1,33 @@
+@media (max-width: 767px) {
+
+  header {
+    form {
+      padding: 20px 0;
+    }
+  }
+
+  .Banner-rotate {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .product {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 323px) {
+
+  .banner-fixed {
+
+    .banner-fixed-12x,
+    .banner-fixed-all-br {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}

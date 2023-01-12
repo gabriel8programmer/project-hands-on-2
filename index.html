@@ -39,8 +39,8 @@
       <article class="row d-flex align-items-center">
 
         <!--logo-->
-        <a href="/" class="col-md-2">
-          <img src="./assets/images/logo.svg" alt="logo da loja - moda da mulher" />
+        <a href="/" class="col-md-2 d-flex justify-content-center">
+          <img src="./assets/images/logo.svg" alt="logo da loja - moda da mulher" class="img-fluid" />
         </a>
         <!--end logo-->
 
@@ -103,7 +103,7 @@
       <ul class="row nav">
 
         <!--list items -->
-        <li class="col-md-2 nav-item">
+        <li class="col-xl-2 col-md-3 col-sm-12 nav-item">
           <svg xmlns=" http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
             viewBox="0 0 16 16">
             <path fill-rule="evenodd"
@@ -143,7 +143,7 @@
 
         </li>
 
-        <li class="col-md-2 nav-item">
+        <li class="col-md-2 col-sm-12 nav-item">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
             viewBox="0 0 16 16">
             <path fill-rule="evenodd"
@@ -166,32 +166,34 @@
   <main>
 
     <!--banner-->
-    <section id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+    <section class="Banner-rotate">
+      <section id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
 
-      <!--article with images -->
-      <article class="carousel-inner">
-        <figure class="carousel-item active">
-          <img src="./assets/images/banner-1.jpg" class="d-block w-100" alt="banner-1">
-        </figure>
-        <figure class="carousel-item">
-          <img src="./assets/images/banner-2.jpg" class="d-block w-100" alt="banner-2">
-        </figure>
-      </article>
-      <!--end article with images -->
+        <!--article with images -->
+        <article class="carousel-inner">
+          <figure class="carousel-item active">
+            <img src="./assets/images/banner-1.jpg" class="d-block w-100" alt="banner-1">
+          </figure>
+          <figure class="carousel-item">
+            <img src="./assets/images/banner-2.jpg" class="d-block w-100" alt="banner-2">
+          </figure>
+        </article>
+        <!--end article with images -->
 
-      <!--buttons next and back-->
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-      <!--end buttons next and back-->
+        <!--buttons next and back-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <!--end buttons next and back-->
 
+      </section>
     </section>
     <!--end banner-->
 
@@ -242,7 +244,7 @@
       <section class="row">
 
         <!--product cropped rosa-->
-        <a href="#" class="col-md-3 product">
+        <a href="#" class="col-sm-6 col-md-3 product">
 
           <figure>
             <img src="./assets/images/produto-cropped-rosa.jpg" alt="cropped-rosa" class="img-fluid" />
@@ -279,7 +281,7 @@
         </a>
 
         <!--product camiseta manga comprida-->
-        <a href="#" class="col-md-3 product">
+        <a href="#" class="col-sm-6 col-md-3 product">
 
           <figure>
             <img src="./assets/images/produto-camiseta-manga-comprida.jpg" alt="camiseta manga comprida"
@@ -323,7 +325,7 @@
         </a>
 
         <!--product camiseta listrada-->
-        <a href="#" class="col-md-3 product">
+        <a href="#" class="col-sm-6 col-md-3 product">
 
           <figure>
             <img src="./assets/images/produto-camiseta listrada.jpg" alt="camiseta listrada" class="img-fluid" />
@@ -360,7 +362,7 @@
         </a>
 
         <!--product saia plisada-->
-        <a href="#" class="col-md-3 product">
+        <a href="#" class="col-sm-6 col-md-3 product">
 
           <figure>
             <img src="./assets/images/produto-saia-plisada.jpg" alt="saia plisada" class="img-fluid" />
@@ -489,7 +491,7 @@
                 Cropped rosa
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ellipsis">
               <a href="#">
                 Camiseta manga comprida
               </a>
