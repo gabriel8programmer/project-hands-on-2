@@ -1,0 +1,45 @@
+@mixin banner-fixed($bg-color, $bg-img) {
+  background-color: $bg-color;
+  background-image: url($bg-img);
+}
+
+section.banner-fixed {
+
+  margin-top: 30px;
+
+  .banner-fixed-12x {
+    @include banner-fixed($pink, "../images/background-parcelas.jpg");
+  }
+
+  .banner-fixed-all-br {
+    @include banner-fixed($purple, "../images/background-entrega.jpg");
+  }
+
+  .banner-fixed-12x,
+  .banner-fixed-all-br {
+    background-size: cover;
+    height: 105px;
+    padding: 20px 60px;
+    color: $white;
+
+    svg,
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    svg {
+      width: 55px;
+      height: 44px;
+    }
+
+    p {
+      font-weight: 100;
+      margin-left: 20px;
+
+      strong {
+        font-weight: bold;
+      }
+    }
+  }
+}
