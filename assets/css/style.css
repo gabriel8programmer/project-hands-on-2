@@ -127,6 +127,37 @@ section.banner-fixed .banner-fixed-all-br p strong {
   font-weight: bold;
 }
 
+section.favorite-products h1 {
+  font-size: 26px;
+  margin: 11px 0;
+  font-weight: 900;
+}
+section.favorite-products a.product aside h2,
+section.favorite-products a.product aside div,
+section.favorite-products a.product aside strong {
+  padding: 0;
+  margin: 0;
+}
+section.favorite-products a.product aside h2,
+section.favorite-products a.product aside strong {
+  font-weight: 900;
+  color: #343a40;
+}
+section.favorite-products a.product aside h2 {
+  font-size: 19px;
+}
+section.favorite-products a.product aside div.stars svg {
+  color: #ffc107;
+  width: 12px;
+  height: 11px;
+}
+section.favorite-products a.product aside strong {
+  font-size: 16px;
+}
+section.favorite-products div button {
+  margin-top: 30px;
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10630,6 +10661,10 @@ fieldset:disabled .btn {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+* {
+  font-family: "Roboto", "sans-serif";
+}
+
 body {
   color: #343a40;
 }

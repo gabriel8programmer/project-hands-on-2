@@ -1,0 +1,53 @@
+section.favorite-products {
+
+  h1 {
+    font-size: 26px;
+    margin: 11px 0;
+    font-weight: 900;
+  }
+
+  a.product {
+    aside {
+
+      h2,
+      div,
+      strong {
+        padding: 0;
+        margin: 0;
+      }
+
+      h2,
+      strong {
+        font-weight: 900;
+        color: $color-secondary;
+      }
+
+      h2 {
+        font-size: 19px;
+      }
+
+      div.stars {
+
+        svg {
+          color: $color-primary;
+          width: 12px;
+          height: 11px;
+        }
+
+      }
+
+      strong {
+        font-size: 16px;
+      }
+    }
+  }
+
+
+  div {
+
+    button {
+      margin-top: 30px;
+    }
+  }
+
+}
