@@ -158,6 +158,25 @@ section.favorite-products div button {
   margin-top: 30px;
 }
 
+footer {
+  background-color: #343a40;
+  color: #fff;
+  font-weight: 100;
+  padding: 25px;
+  margin-top: 30px;
+}
+footer h4 {
+  font-size: 19px;
+  color: #ffc107;
+}
+footer ul li a {
+  color: #fff;
+}
+footer ul li a:hover {
+  color: #fff;
+  font-weight: bold;
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
