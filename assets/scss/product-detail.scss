@@ -1,0 +1,51 @@
+.product-details {
+  section.product-description {
+    margin: 0;
+
+    h1 {
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  div.price {
+
+    margin: 20px 0;
+
+    .stars {
+      svg {
+        color: $yellow;
+        width: 18px;
+        height: 17px;
+      }
+    }
+
+    article {
+
+      strong,
+      span {
+        margin: 0;
+        font-weight: bold;
+      }
+
+      strong {
+        font-size: 40px;
+      }
+
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+
+  form {
+    input {
+      padding: 10px 0;
+      margin: 10px 0;
+      width: 100%;
+    }
+  }
+}

@@ -10,12 +10,16 @@
 @import "./banner-fixed.scss";
 @import "./products.scss";
 @import "./footer.scss";
+@import "./product-detail.scss";
 
 //media
 @import "./responsive.scss";
 
 //framework
 @import "./bootstrap.scss";
+
+//components bootstrap
+@import "./breadcrumb.scss";
 
 //config 
 @import "./config.scss";
